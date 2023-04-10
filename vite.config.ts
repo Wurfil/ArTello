@@ -9,5 +9,11 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./src")
     }
+  },
+  css: {
+    modules: {
+      generateScopedName: "[folder]--[local]--[hash:base64:5]",
+      localsConvention: "camelCase"
+    }
   }
 })
