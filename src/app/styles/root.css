@@ -1,0 +1,25 @@
+:root {
+  /* Typography */
+  --font-sans: "Inter", sans-serif;
+
+  /* Color scheme */
+  color-scheme: light dark;
+
+  /* Colors */
+
+  /* Base */
+  --color-base-black: #000;
+  --color-base-white: #fff;
+}
+
+:root.dark {
+  --color-base-black: #fff;
+  --color-base-white: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-base-black: #fff;
+    --color-base-white: #000;
+  }
+}

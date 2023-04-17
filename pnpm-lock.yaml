@@ -7,6 +7,12 @@ dependencies:
   compose-function:
     specifier: ^3.0.3
     version: 3.0.3
+  mobx:
+    specifier: ^6.9.0
+    version: 6.9.0
+  mobx-react-lite:
+    specifier: ^3.4.3
+    version: 3.4.3(mobx@6.9.0)(react-dom@18.2.0)(react@18.2.0)
   modern-normalize:
     specifier: ^1.1.0
     version: 1.1.0
@@ -2503,6 +2509,28 @@ packages:
       is-plain-obj: 1.1.0
       kind-of: 6.0.3
     dev: true
+
+  /mobx-react-lite@3.4.3(mobx@6.9.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-NkJREyFTSUXR772Qaai51BnE1voWx56LOL80xG7qkZr6vo8vEaLF3sz1JNUVh+rxmUzxYaqOhfuxTfqUh0FXUg==}
+    peerDependencies:
+      mobx: ^6.1.0
+      react: ^16.8.0 || ^17 || ^18
+      react-dom: '*'
+      react-native: '*'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      mobx: 6.9.0
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /mobx@6.9.0:
+    resolution: {integrity: sha512-HdKewQEREEJgsWnErClfbFoVebze6rGazxFLU/XUyrII8dORfVszN1V0BMRnQSzcgsNNtkX8DHj3nC6cdWE9YQ==}
+    dev: false
 
   /modern-normalize@1.1.0:
     resolution: {integrity: sha512-2lMlY1Yc1+CUy0gw4H95uNN7vjbpoED7NNRSBHE25nWfLBdmMzFCsPshlzbxHz+gYMcBEUN8V4pU16prcdPSgA==}
